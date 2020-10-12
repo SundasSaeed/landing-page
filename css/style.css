@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    font-family:font-family: 'Lato', sans-serif; ;
+}
+/* idcontent */
+#content{
+    text-align: center;
+    padding-top:25% ;
+}
+a:hover{
+    color:black !important;
+}
+
