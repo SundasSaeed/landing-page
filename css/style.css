@@ -2,14 +2,61 @@ body{
     background-image: url("https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
     background-size: cover;
     background-position: center;
-    font-family:font-family: 'Lato', sans-serif; ;
+    font-family: 'Lato', sans-serif;
+    color:white;
 }
-/* idcontent */
+
+html{
+    height: 100%;
+}
+
+
+ /* navbar */
+ a:hover{
+    color:black !important;
+}
+.active{
+    background-color:lightgray;
+}
+
+
+/* title heading*/
+
 #content{
     text-align: center;
     padding-top:25% ;
-}
-a:hover{
-    color:black !important;
+    text-shadow:0px 4px 3px pink,
+                0px 8px 13px purple,
+                0px 18px 23px plum; 
+}       
+   
+h1{
+  font-weight: 700; 
+  font-size: 5rem; 
 }
 
+hr{
+    width:400px;
+    border-top:  1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0 0,.2);
+}
+
+/* button */
+
+ .btn-lg{
+    padding:  10px 16px ;
+    font-size:  18px;
+    line-height:  1.333333 ;
+    border-radius:  6px ;
+}
+.btn-default{
+    color:#333;
+    background-color:  #fff;
+    border-color: #ccc;
+}
+
+.btn{ 
+    display:inline-block;
+    font-weight: 400;
+    margin-bottom: 0;
+}
